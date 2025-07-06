@@ -11,4 +11,5 @@ int main()
     printf("the address of the ptr is %f\n", *dptr);
     ptr =&y;
     printf("%f\n",*dptr);
+ return 0;
 }
