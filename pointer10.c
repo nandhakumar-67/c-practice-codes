@@ -16,6 +16,8 @@ int main()
     printf("*r = %d\n", *r);
     printf("**r =%d\n", **r);
     printf("***r= %d\n", ***r);
+    ***r =100;
+    printf("****r=%d\n", ***r);
     return 0;
 
 
