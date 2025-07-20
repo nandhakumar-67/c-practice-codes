@@ -7,11 +7,20 @@ struct node {
 struct node *head =NULL;
 void insert(int data){
     struct node *head=malloc(sizeof(struct node));
+    struct node *temp;
+    head->data=value;
+    head->link=NULL;
+    head =temp;
+    while(temp!=0){
+        printf("%d",timp->data);
+        temp =temp->data;
+        
+    }
+    head->link=head;
 
 
 }
 int main()
-while(a)
 {
     int choice,value,position;
     printf("1.insert\n2.delete\n.3.display.4.exit\nenter the choice");
